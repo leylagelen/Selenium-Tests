@@ -42,7 +42,7 @@ public class MySeleniumThread extends Thread {
                 WebDriver driver = new ChromeDriver(optionsC);
 
                 driver.manage().window().maximize();
-                driver.get("https://finaltest.alo-tech.com/v2/tr/login.html");
+                driver.get("ewrwr");
                 driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 
                 WebElement email = driver.findElement(By.xpath("//input[@name='email']"));
@@ -58,7 +58,7 @@ public class MySeleniumThread extends Thread {
                 driver.findElement(By.id("login-login-button")).click();
                 Thread.sleep(2000);
 
-                driver.get("https://finaltest.alo-tech.com/v2/tr/agent3.html#");
+                driver.get("www");
                 Thread.sleep(2000);
               
                 driver.findElement(By.xpath("//button[contains(.,'Tamam')]")).click();

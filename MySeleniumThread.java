@@ -33,7 +33,7 @@ public class MySeleniumThread extends Thread {
     @Override
     public void run() {
     	 
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Leyla GELEN\\Desktop\\chromedriver_win32\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 
         try {
 
@@ -82,7 +82,7 @@ public class MySeleniumThread extends Thread {
        
 		JSONParser parser = new JSONParser();
 		
-		Object obj = parser.parse(new FileReader("C:\\Users\\Leyla GELEN\\Desktop\\data.json"));
+		Object obj = parser.parse(new FileReader("C:data.json"));
 
         JSONObject jsonObject = (JSONObject) obj;
 
